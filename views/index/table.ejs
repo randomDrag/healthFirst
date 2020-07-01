@@ -1,0 +1,31 @@
+<%- include("../headers/head"); -%>
+<h2>Section title</h2>
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Mo number</th>
+        <th>address</th>
+        <th>iteminfo</th>
+      </tr>
+    </thead>
+    <% dat.forEach(function(list){ %>
+    <tbody>
+      <tr>
+        <td><%= list.Full_Name %></td>
+        <td><%= list.Email %></td>
+        <td><%= list.Mobile_number %></td>
+        <td><%= list.Address %></td>
+        <td><%= list.Info %></td>
+      </tr>
+     
+    </tbody>
+    <% }); %>
+  </table>
+</div>
+
+
+<%- include ("../footer/foot"); -%>

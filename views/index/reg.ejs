@@ -1,0 +1,40 @@
+<div class="container">
+
+    <div class="box">
+
+        <form action="/register" method="POST" class="reg-form">
+           
+                <div class="email">
+                        <i class="far fa-envelope"></i>
+                    <input type="Email" placeholder="Email" name="Email" autocomplete="off">
+                </div>
+                <div class="password">
+                        <i class="fas fa-key"></i>
+                    <input type="password" name="Password" placeholder="Pasword" autocomplete="off">
+                </div>
+                <div class="button-form">
+    
+                        <button type="submit"><i class="fas fa-chevron-right fa-1x"></i></button>
+    
+                </div>
+                
+    
+    
+    
+    
+            </form>
+    
+    
+    
+        </div>
+    
+    </div>
+
+    <script>
+        window.onload = function(){
+            const box= document.querySelector(".box");
+
+            box.style.animation ="fade 1s ease";
+
+        }
+    </script>

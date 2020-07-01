@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+}
+html ,body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+.bg{
+    background-color:#060608;
+    color: white;
+    }
+    body{background-color: #a696c8;}
+  
+    .white{
+        color: white;
+        font-family: 'ZCOOL XiaoWei', serif;
+    }
+    .navbar-brand{
+        font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .icon{
+        color:white;
+        padding: 0 5px;
+        margin: -20px 0;
+      
+       
+    }
+    
+    .navbar {
+        padding: 0 0 4.5rem;
+      }
+    
+      .nav-item {
+        padding: 0 18px;
+        
+      }
+      .nav-item:hover{
+          text-decoration: none;
+          color: black;
+          border: 1px solid white;
+          transition: all ease 1s;
+      }
+      .nav-link{
+          text-decoration: none;
+          color: white;
+        font-size: 1rem;
+        font-family: 'Playfair Display', serif;
+      }
+      .nav-link:hover{
+        color: black;
+       text-decoration: none;
+        transition: all ease 1s;
+    }
+    
+      .slideView{
+        
+       width: 100%;
+        margin: 0 auto;
+      }
+      .slideText{
+     
+        font-family: 'Playfair Display', serif;
+        font-size: 1.5rem; 
+        
+    
+      }
+      .h6{
+        font-weight: bold;
+        text-align: start;
+        padding: 5px 0;
+    }
+    
+    .all{
+      margin: 0 30%;
+    }
+      .footer-back{
+        background: black;
+      
+    
+       
+      }
+    
+      .headingItem{
+        text-align: center;
+        font-weight: bold;
+    
+        font-family: "Montserrat";
+      }
+
+.slide1{
+    
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/09/12/08/office-1966381_960_720.jpg");
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,00,0,.7); 
+    background-blend-mode: multiply;
+  
+
+  
+    
+  
+}
+
+.slide2{
+
+
+  background-image: url("https://images.unsplash.com/photo-1585417238790-f6d290d6490c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=808&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,00,0,.7); 
+  background-blend-mode: multiply;
+
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.fc{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.ZeroMar{
+    margin: 0px;
+    padding: 0px;
+}
+
+.productSec{
+  
+margin: 30 auto;
+background-color: #fad3cf;
+
+
+
+
+}
+
+.cardSec{
+  background-color: #a696c8;
+  border: 2px solid #a696c8;
+}
+
+.navMode{
+
+  position: sticky;
+  top: 0;
+}
+
+.item2{
+  background-color: #a696c8;
+
+width: 100vw;
+  height: 100%;
+}
+
+.productSec1{
+  
+  margin: 30 auto;
+  background-color: #a696c8;
+  
+  
+  
+  
+  }
+
+  .buttonItem{
+
+    width: 100px;
+   
+    border-radius: 80px;
+    background-color: #c2149c;
+
+
+  }

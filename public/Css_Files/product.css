@@ -1,0 +1,125 @@
+.container {
+    max-width: 960px;
+  }
+  
+ 
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+  }
+  
+  .overflow-hidden { overflow: hidden; }
+
+  .N95{
+
+    background-image: url("https://image.freepik.com/free-vector/flat-medical-mask-concept_23-2148469654.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,00,0,.7); 
+    background-blend-mode: multiply;
+  
+    margin: 0px;
+    padding: 0px;
+  
+  
+  }
+
+  .buttonCard{
+
+    width: 20%;
+    border-radius: 80px ;
+    background-color: #fad3cf;
+    color: black;
+    border: 2px solid #fad3cf;
+    font-family: 'Nunito', sans-serif;
+   
+  }
+  .buttonCard:hover{
+    color: black;
+    background-color: rgb(0, 255, 136);
+    width: 20%;
+    border-radius: 80px ;
+    border: 2px solid black;
+    translate: all .2s ease;
+    
+   
+  }
+
+  .Sani{
+    background-image: url("https://image.freepik.com/free-vector/flat-design-hand-sanitizer-container_23-2148471760.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,00,0,.7); 
+    background-blend-mode: multiply;
+  
+    margin: 0px;
+    padding: 0px;
+  
+  
+  }
+
+  .imgPro{
+    position: relative;
+    border-radius: 25px ;
+    margin: 4px;
+    top: 10%;
+border: 5px solid #fad3cf;
+   
+  }
+  .cardFont{
+   position: relative;
+   top: 0%;
+  
+  }
+
+  .senitizer{
+
+    width: 20%;
+    border-radius: 80px ;
+    background-color: #2470a0;
+    color: black;
+    border: 2px solid #fad3cf;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .contnt{
+
+   display: block;
+   
+
+    margin:  10px;
+    padding: 6px;
+   
+
+
+  }
+
+  .imgSet{
+
+    margin: 0 auto;
+
+  }
+
+  .senitizer1{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 100px ;
+    background-color:#060608;
+    color: black;
+    border: 2px solid #fad3cf;
+    font-family: 'Nunito', sans-serif;
+  }

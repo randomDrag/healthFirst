@@ -1,0 +1,35 @@
+<%- include("../headers/head"); -%>
+
+<div class="all">
+    
+
+    <div class="body-part">
+
+        <form action="/product" method="post">
+            <h6 class="h6">Full Name</h6>
+            <input type="text" class="form-control" placeholder="Full Name" name="fullname" required>
+
+            <h6 class="h6">Email</h6>
+            <input type="Email" class="form-control" placeholder="Email" name="Email" required>
+
+
+            <h6 class="h6">Address</h6>
+            <input type="text" class="form-control" placeholder="Full Address " name="address" required>
+             <h6 class="h6">mobile no</h6>
+            <input type="tel"  placeholder="mobile number" name ="Number" required>
+            <h6 class="h6">Item info</h6>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="ProductInfo" ></textarea>
+            
+            <button type="submit"class="btn btn-primary postb">save</button>
+
+        </form>
+
+
+
+    </div>
+
+
+
+</div>
+
+<%- include ("../footer/foot"); -%>

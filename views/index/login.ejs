@@ -1,0 +1,42 @@
+<%- include("../headers/head"); -%>
+<div class="container">
+
+    <div class="box">
+
+        <form action="/signup" method="POST" class="reg-form">
+           
+            <div class="email">
+                    <i class="far fa-envelope"></i>
+                <input type="text" placeholder="name" name="Email" autocomplete="off">
+            </div>
+            <div class="password">
+                    <i class="fas fa-key"></i>
+                <input type="password" name="Password" placeholder="Password" autocomplete="off">
+            </div>
+            <div class="button-form">
+
+                    <button type="submit" value="Log In"><i class="fas fa-chevron-right fa-1x"></i></button>
+
+            </div>
+            
+
+
+
+
+        </form>
+
+
+
+    </div>
+
+</div>
+<%- include ("../footer/foot"); -%>
+
+<script>
+    window.onload = function(){
+        const box= document.querySelector(".box");
+
+        box.style.animation ="fade 1s ease";
+
+    }
+</script>
